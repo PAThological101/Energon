@@ -3,15 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
     <style media="screen">
 
       body {
         background-image: radial-gradient(blue, lightblue);
       }
 
+
       .hcpform {
-        float: right;
+        float: left;
       }
+      
 
       .patientform{
         float: left;
@@ -19,7 +22,8 @@
 
       .doctor img {
       height: 12%;
-      width: 12%
+      width: 12%;
+
       }
 
       .patient img {
@@ -31,8 +35,8 @@
   </head>
   <body>
 
-<h1>Energon</h1>
-<div class="doctor" style="border-style: solid">
+<h1>Welcome to Energon</h1>
+<div class="doctor">
   <img src="images/doctor.jpg" alt="doctor image">
 <form class="hcpform" action="index.html" method="post">
 
@@ -77,8 +81,13 @@
 
 <br>
 <br>
-
-<div class="patient" style="border-style: solid;">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="patient">
   <img src="images/patient.jpg" alt="image of patient">
 <form class="patientform" action="index.html" method="post">
 
@@ -95,16 +104,42 @@
 
 <p>What is a DIN?</p>
 <!-- do a modal showing what a din is-->
-<button type="button" name="ptbutton">Submit</button>
+<button onclick="window.location.href='constructionEn.html'" type="button" name="hcpbutton">Submit</button>
 
 </fieldset>
 
 </form>
 </div>
 
-<footer>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
 
-</footer>
+ 
+<div class="footer-left">
+  <p><span style="font-family: impact; font-size: 30px; color: blue;">B</span><span style="font-size: 25px">itMED</span><sup style="color: black; font-size: 14px; font-family: impact;">TM</sup><br>
+  Applying Blockchain to Medicine</p>
+</div>
+
+
+
+<div class="footer-right">
+  <p style="font-family: impact; color: purple; font-size: 25px;">Energon<sup style="color: black; font-size: 16px;">Rx</sup><br>
+  <span style="font-family: arial; font-size: 15px; color: black; vertical-align: text-top;">Levodognacipran</p>
+
+</div>
 
   </body>
 </html>
